@@ -2,8 +2,10 @@ body {
     text-align: center;
 }
 
-.title {
+h1 {
     text-transform: uppercase;
+}
+.black {
     color: #000;
 }
 .blue {
@@ -11,5 +13,5 @@ body {
 }
 
 #root > img {
-    width: 800px;
+    height: 500px;
 }

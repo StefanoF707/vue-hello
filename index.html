@@ -10,8 +10,10 @@
     <body>
 
         <div id="root">
-            <h1 :class="titleClass">{{firstMessage}} <span :class="spanClass">{{secondMessage}}</span></h1>
+            <h1 :class="firstClass">{{firstMessage}} <span :class="secondClass">{{secondMessage}}</span></h1>
             <img :src="myImage" alt="Stadio Giuseppe Meazza">
+            <br>
+            <button type="button" name="button" @click="changeElements">Clicca qui</button>
         </div>
 
 
